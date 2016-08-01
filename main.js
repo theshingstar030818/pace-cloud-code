@@ -6,7 +6,7 @@ var sendgridAPIKEY = 'SG.DV1_y7g3Q46byJwrXCIE8g.kXKw7IU6wi8GJ3it1QnrFs19mKry1zwx
 
 //email stuff
 var CompanyName = "Pace Couriers Inc.";
-var portal_url = "http://www.portal.pacecouriers.com/index.html";
+var portal_url = "http://www.portal.pacecouriers.com/";
 var support_contact_info = "+1-613-501-2234";
 
 //notify driver email
