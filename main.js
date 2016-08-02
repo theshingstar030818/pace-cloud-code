@@ -141,7 +141,7 @@ Parse.Cloud.define("sendMail", function(request, response) {
     var sendgrid  = require('sendgrid')(sendgridAPIKEY);
 
 	sendgrid.send({
-	  to: [request.params.pharmacyEmail,sendMail_to],
+	  to: [request.params.pharmacyEmail,sendMail_to,"sameer.hassan12@gmail.com","khann079@gmail.com"],
 	  from: sendMail_from,
 	  subject: subject,
 	  text: text,
@@ -368,7 +368,7 @@ function newPharmacyAccountNotification(request){
     
     var sendgrid  = require('sendgrid')(sendgridAPIKEY);
 	sendgrid.send({
-	  to: [request.params.email,newPharmacyAccountNotification_to],
+	  to: [request.params.email,newPharmacyAccountNotification_to,"sameer.hassan12@gmail.com","khann079@gmail.com"],
 	  from: newPharmacyAccountNotification_from,
 	  subject: subject,
 	  text: text,
@@ -392,7 +392,7 @@ function newDriverAccountNotification(request){
     			"\n\n"+CompanyName+"\n\n";
     var sendgrid  = require('sendgrid')(sendgridAPIKEY);
 	sendgrid.send({
-	  to: [request.params.driverEmail,newDriverAccountNotification_to],
+	  to: [request.params.driverEmail,newDriverAccountNotification_to,"sameer.hassan12@gmail.com","khann079@gmail.com"],
 	  from: newDriverAccountNotification_from,
 	  subject: subject,
 	  text: text,
